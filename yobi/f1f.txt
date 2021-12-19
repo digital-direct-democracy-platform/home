@@ -1,0 +1,7 @@
+"f1h","content"
+"h1","digital-direct-democracy-platform"
+"h1","Platform for Digital Direct Democracy"
+"h1","new type of SNS"
+"h1","Indexed Minutes + github + google translate"
+"h1","[under constraction]"
+"img","IMG_0001.JPG"

@@ -1,0 +1,7 @@
+"f1b","Github account","repository","region","district"
+,"ego-global","home","global","global"
+,"tmp-jp","home","asia","japan"
+,,,"europe",
+,,,"africa",
+,,,"america",
+,,,"oceania",

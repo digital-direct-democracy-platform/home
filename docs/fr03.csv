@@ -1,92 +1,97 @@
-Git/GitHubé–“ã®çµåˆã®è¨­å®š
-
-ç›®æ¬¡
-1.å‰æ
-1.1 ãƒªãƒ¢ãƒ¼ãƒˆãƒªãƒã‚¸ãƒˆãƒªï¼ˆGitHub)ã®è¨­å®šæƒ…å ±
-1.2 ãƒ­ãƒ¼ã‚«ãƒ«ãƒªãƒã‚¸ãƒˆãƒª(pc)ã®è¨­å®šãƒ•ã‚¢ã‚£ãƒ«
-2.GitHubã¨ã®é€šä¿¡ç”¨æš—å·ã‚­ãƒ¼(*4,*5)ã®ä½œæˆ
-3.GitHubã«æš—å·ã‚­ãƒ¼ã‚’ç™»éŒ²ã™ã‚‹
-4.é€šä¿¡ç”¨æš—å·ã‚­ãƒ¼è¨­å®šãƒ•ã‚¢ã‚£ãƒ«config(*6)ã¸ã®è¿½è¨˜äº‹é …
-5.é€šä¿¡ç”¨æš—å·ã‚­ãƒ¼ã®ç™»éŒ²ã‚’ç¢ºèªã™ã‚‹ã€‚
-6. ãƒªãƒã‚¸ãƒˆãƒªæ¯ã®è¨­å®šãƒ•ã‚¢ã‚£ãƒ«.config(*7)ã¸ã®è¿½è¨˜äº‹é …
-6.1 ãƒ¬ãƒã‚¸ãƒˆãƒªã®åˆæœŸåŒ–
-6.2 è¿½è¨˜äº‹é …
-
-1.å‰æ
-1.1 ãƒªãƒ¢ãƒ¼ãƒˆãƒªãƒã‚¸ãƒˆãƒªï¼ˆGitHub)ã®è¨­å®šæƒ…å ±
-ã‚ãªãŸã®æƒ…å ±
-GitHub  ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã€€acc-aa(*1)
-GitHubã€€ãƒ¬ãƒã‚¸ãƒˆãƒªã€€repo-aa(*2)
-GitHubã€€ãƒ¡ãƒ¼ãƒ«     aaa@xxx.yyy(*3)
-ä¼šè­°é–‹å‚¬è€…ã®æƒ…å ±
-GitHub  ã‚¢ã‚«ã‚¦ãƒ³ãƒˆ acc-bb(*11)
-GitHubã€€ãƒ¬ãƒã‚¸ãƒˆãƒª repo-bb(*12)
-
-ä¸Šè¨˜ã®æƒ…å ±ã¯ã€ã‚ãªãŸãŒä¼šè­°ã®å‚åŠ è€…ã®å ´åˆã«å¿…è¦ã¨ãªã‚‹æƒ…å ±ã§ã™ã€‚
-ã‚ãªãŸãŒä¼šè­°ã®é–‹å‚¬è€…ã§ã‚ã‚‹å ´åˆã¯ã€ä¼šè­°é–‹å‚¬è€…ã®æƒ…å ±ã¯ä¸è¦ã§ã™ã€‚
-
-1.2 ãƒ­ãƒ¼ã‚«ãƒ«ãƒªãƒã‚¸ãƒˆãƒª(pc)ã®è¨­å®šãƒ•ã‚¢ã‚£ãƒ«
-(*)ã¯ä»»æ„ã®åç§°ã‚’ç¤ºã™ã€‚
-
-c:/user/.gitconfigã€€ã€€ãƒ­ãƒ¼ã‚«ãƒ«ãƒªãƒã‚¸ãƒˆãƒªã®å…±é€šè¨­å®šãƒ•ã‚¤ã‚¢ã‚¤ãƒ«
-c:/user/aaa(*)/.ssh/id_rsa_aaa(*4)ã€€é€šä¿¡ç”¨æš—å·ã‚­ãƒ¼ã®å€¤ï¼ˆç§˜å¯†éµï¼‰
-c:/user/aaa(*)/.ssh/id_rsa_aaa.pub(*5)ã€€é€šä¿¡ç”¨æš—å·ã‚­ãƒ¼ã®å€¤ï¼ˆå…¬é–‹éµï¼‰
-c:/user/aaa(*)/.ssh/config(*6)ã€€é€šä¿¡ç”¨æš—å·ã‚­ãƒ¼ã®è¨­å®šãƒ•ã‚¤ã‚¢ã‚¤ãƒ«
-c:/user/aaa(*)/Documents/repos(*)/repo(*)/.git/.config(*7)ã€€ãƒªãƒã‚¸ãƒˆãƒªæ¯ã®è¨­å®šãƒ•ã‚¢ã‚¤ãƒ«
-c:/user/aaa(*)/Documents/repos(*)/repo(*)/f2.txt(*)ã€€ãƒªãƒã‚¸ãƒˆãƒªã®ãƒ‡ãƒ¼ã‚¿ã®ä¾‹
-
-2.GitHubã¨ã®é€šä¿¡ç”¨æš—å·ã‚­ãƒ¼(*4,*5)ã®ä½œæˆ
-GitBashã‚¿ãƒ¼ãƒŸãƒŠãƒ«ã§è¡Œã†ã€‚
-c:/user/aaa(*)/.ssh ãƒ•ã‚ªãƒ«ãƒ€ã«ç§»å‹•ã™ã‚‹ã€‚
-ã‚­ãƒ¼ã®ç”Ÿæˆå‘½ä»¤ã€€$ssh -keygen -t rsa
-Enter files:id_rsa_aaa(*4)
-é€šä¿¡ç”¨æš—å·ã‚­ãƒ¼(*4,*5)ãŒä½œæˆã•ã‚Œã‚‹ã€‚
-
-3.GitHubã«æš—å·ã‚­ãƒ¼ã‚’ç™»éŒ²ã™ã‚‹
-GitHubâ†’Signinâ†’Settingsâ†’SSH and GPG keys â†’
-ã‚­ãƒ¼ã®åå‰:acc-aa(*)
-å…¬é–‹ã‚­ãƒ¼ã®å†…å®¹ï¼šid_rsa_aaa.pub(*5)ã®å†…å®¹ã‚’ã‚³ãƒ”ãƒ¼ã—è²¼ã‚Šä»˜ã‘ã‚‹
-
-4.é€šä¿¡ç”¨æš—å·ã‚­ãƒ¼è¨­å®šãƒ•ã‚¢ã‚£ãƒ«config(*6)ã¸ã®è¿½è¨˜äº‹é …
-
-  Host github-aaa(*8)
-  HostName github.com
-  IdentityFile ~/.ssh/id_rsa_aaa(*4)
-  User git
-  Port 22
-  TCPKeepAlive yes
-  IdentitiesOnly yes
-
-5.é€šä¿¡ç”¨æš—å·ã‚­ãƒ¼ã®ç™»éŒ²ã‚’ç¢ºèªã™ã‚‹ã€‚
-GitBashã‚¿ãƒ¼ãƒŸãƒŠãƒ«ã§è¡Œã†ã€‚
-ç¢ºèªå‘½ä»¤ã€€$ssh -keygen -T github-aaa(*8)
-æˆåŠŸæ™‚ã®çµæœã€€You've successfully authentificated,---
-
-6. ãƒªãƒã‚¸ãƒˆãƒªæ¯ã®è¨­å®šãƒ•ã‚¢ã‚£ãƒ«.config(*7)ã¸ã®è¿½è¨˜äº‹é …
-6.1 ãƒ¬ãƒã‚¸ãƒˆãƒªã®åˆæœŸåŒ–
-GitBashã‚¿ãƒ¼ãƒŸãƒŠãƒ«ã§è¡Œã†ã€‚
-c:/user/aaa(*)/Documents/repos(*)/repo(*) ãƒ•ã‚ªãƒ«ãƒ€ã«ç§»å‹•ã™ã‚‹ã€‚
-ãƒ¬ãƒã‚¸ãƒˆãƒªã®åˆæœŸåŒ–å‘½ä»¤ã€€$git init
-
-6.2 è¿½è¨˜äº‹é …
-
-[user]
-	name = acc-aa(*1)
-	email = aaa@xxx.yyy(*3)repo-aa(*2)
-[remote "origin"]
-	url = git@github-aaa(*8):acc-aa(*1)/repo-aa(*2)
-	pushurl =  git@github-aaa(*8):acc-aa(*1)/repo-aa(*2)
-	fetch = +refs/heads/*:refs/remotes/origin/*
-
-[remote "upstream"]
-	url = https://github.com/acc-bb(*11)/repo-bb(*12).git
-	pushurl = https://github.com/acc-bb(*11)/repo-bb(*12).git
-	fetch = +refs/heads/*:refs/remotes/upstream/*
-acc-aa(*11)
-
-7.è¨­å®šæƒ…å ±ã®ç¢ºèª
-vscodeâ†’ãƒ•ã‚¢ã‚¤ãƒ«â†’ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‚’é–‹ãâ†’repo(*)ã‚’æŒ‡å®š
-â†’graph(å·¦ä¸‹)â†’è¨­å®šãƒãƒ¼ã‚¯ï¼ˆæ­¯è»Šï¼‰ï¼ˆå³ä¸Šï¼‰
-â†’6.2 ã®è¿½è¨˜äº‹é …ã‚’ç¢ºèªã™ã‚‹
-
-ï¼ˆå®Œäº†ï¼‰
+1:type,2,3,4,5,6,"7:content	"
+,,,,,,explanetion of fr-02.txt
+,,,,,,explanetion
+,,,,,,explanetion
+,,,,,,
+,,,,,,Git/GitHubŠÔ‚ÌŒ‹‡‚Ìİ’è
+,,,,,,
+,,,,,,–ÚŸ
+,,,,,,1.‘O’ñ
+,,,,,,1.1 ƒŠƒ‚[ƒgƒŠƒ|ƒWƒgƒŠiGitHub)‚Ìİ’èî•ñ
+,,,,,,1.2 ƒ[ƒJƒ‹ƒŠƒ|ƒWƒgƒŠ(pc)‚Ìİ’èƒtƒAƒBƒ‹
+,,,,,,"2.GitHub‚Æ‚Ì’ÊM—pˆÃ†ƒL[(*4,*5)‚Ìì¬"
+,,,,,,3.GitHub‚ÉˆÃ†ƒL[‚ğ“o˜^‚·‚é
+,,,,,,4.’ÊM—pˆÃ†ƒL[İ’èƒtƒAƒBƒ‹config(*6)‚Ö‚Ì’Ç‹L–€
+,,,,,,5.’ÊM—pˆÃ†ƒL[‚Ì“o˜^‚ğŠm”F‚·‚éB
+,,,,,,6. ƒŠƒ|ƒWƒgƒŠ–ˆ‚Ìİ’èƒtƒAƒBƒ‹.config(*7)‚Ö‚Ì’Ç‹L–€
+,,,,,,6.1 ƒŒƒ|ƒWƒgƒŠ‚Ì‰Šú‰»
+,,,,,,6.2 ’Ç‹L–€
+,,,,,,
+,,,,,,1.‘O’ñ
+,,,,,,1.1 ƒŠƒ‚[ƒgƒŠƒ|ƒWƒgƒŠiGitHub)‚Ìİ’èî•ñ
+,,,,,,‚ ‚È‚½‚Ìî•ñ
+,,,,,,GitHub  ƒAƒJƒEƒ“ƒg@acc-aa(*1)
+,,,,,,GitHub@ƒŒƒ|ƒWƒgƒŠ@repo-aa(*2)
+,,,,,,GitHub@ƒ[ƒ‹     aaa@xxx.yyy(*3)
+,,,,,,‰ï‹cŠJÃÒ‚Ìî•ñ
+,,,,,,GitHub  ƒAƒJƒEƒ“ƒg acc-bb(*11)
+,,,,,,GitHub@ƒŒƒ|ƒWƒgƒŠ repo-bb(*12)
+,,,,,,
+,,,,,,ã‹L‚Ìî•ñ‚ÍA‚ ‚È‚½‚ª‰ï‹c‚ÌQ‰ÁÒ‚Ìê‡‚É•K—v‚Æ‚È‚éî•ñ‚Å‚·B
+,,,,,,‚ ‚È‚½‚ª‰ï‹c‚ÌŠJÃÒ‚Å‚ ‚éê‡‚ÍA‰ï‹cŠJÃÒ‚Ìî•ñ‚Í•s—v‚Å‚·B
+,,,,,,
+,,,,,,1.2 ƒ[ƒJƒ‹ƒŠƒ|ƒWƒgƒŠ(pc)‚Ìİ’èƒtƒAƒBƒ‹
+,,,,,,(*)‚Í”CˆÓ‚Ì–¼Ì‚ğ¦‚·B
+,,,,,,
+,,,,,,c:/user/.gitconfig@@ƒ[ƒJƒ‹ƒŠƒ|ƒWƒgƒŠ‚Ì‹¤’Êİ’èƒtƒCƒAƒCƒ‹
+,,,,,,c:/user/aaa(*)/.ssh/id_rsa_aaa(*4)@’ÊM—pˆÃ†ƒL[‚Ì’li”é–§Œ®j
+,,,,,,c:/user/aaa(*)/.ssh/id_rsa_aaa.pub(*5)@’ÊM—pˆÃ†ƒL[‚Ì’liŒöŠJŒ®j
+,,,,,,c:/user/aaa(*)/.ssh/config(*6)@’ÊM—pˆÃ†ƒL[‚Ìİ’èƒtƒCƒAƒCƒ‹
+,,,,,,c:/user/aaa(*)/Documents/repos(*)/repo(*)/.git/.config(*7)@ƒŠƒ|ƒWƒgƒŠ–ˆ‚Ìİ’èƒtƒAƒCƒ‹
+,,,,,,c:/user/aaa(*)/Documents/repos(*)/repo(*)/f2.txt(*)@ƒŠƒ|ƒWƒgƒŠ‚Ìƒf[ƒ^‚Ì—á
+,,,,,,
+,,,,,,"2.GitHub‚Æ‚Ì’ÊM—pˆÃ†ƒL[(*4,*5)‚Ìì¬"
+,,,,,,GitBashƒ^[ƒ~ƒiƒ‹‚Ås‚¤B
+,,,,,,c:/user/aaa(*)/.ssh ƒtƒIƒ‹ƒ_‚ÉˆÚ“®‚·‚éB
+,,,,,,ƒL[‚Ì¶¬–½—ß@$ssh -keygen -t rsa
+,,,,,,Enter files:id_rsa_aaa(*4)
+,,,,,,"’ÊM—pˆÃ†ƒL[(*4,*5)‚ªì¬‚³‚ê‚éB"
+,,,,,,
+,,,,,,3.GitHub‚ÉˆÃ†ƒL[‚ğ“o˜^‚·‚é
+,,,,,,GitHub¨Signin¨Settings¨SSH and GPG keys ¨
+,,,,,,ƒL[‚Ì–¼‘O:acc-aa(*)
+,,,,,,ŒöŠJƒL[‚Ì“à—eFid_rsa_aaa.pub(*5)‚Ì“à—e‚ğƒRƒs[‚µ“\‚è•t‚¯‚é
+,,,,,,
+,,,,,,4.’ÊM—pˆÃ†ƒL[İ’èƒtƒAƒBƒ‹config(*6)‚Ö‚Ì’Ç‹L–€
+,,,,,,
+,,,,,,  Host github-aaa(*8)
+,,,,,,  HostName github.com
+,,,,,,  IdentityFile ~/.ssh/id_rsa_aaa(*4)
+,,,,,,  User git
+,,,,,,  Port 22
+,,,,,,  TCPKeepAlive yes
+,,,,,,  IdentitiesOnly yes
+,,,,,,
+,,,,,,5.’ÊM—pˆÃ†ƒL[‚Ì“o˜^‚ğŠm”F‚·‚éB
+,,,,,,GitBashƒ^[ƒ~ƒiƒ‹‚Ås‚¤B
+,,,,,,Šm”F–½—ß@$ssh -keygen -T github-aaa(*8)
+,,,,,,"¬Œ÷‚ÌŒ‹‰Ê@You've successfully authentificated,---"
+,,,,,,
+,,,,,,6. ƒŠƒ|ƒWƒgƒŠ–ˆ‚Ìİ’èƒtƒAƒBƒ‹.config(*7)‚Ö‚Ì’Ç‹L–€
+,,,,,,6.1 ƒŒƒ|ƒWƒgƒŠ‚Ì‰Šú‰»
+,,,,,,GitBashƒ^[ƒ~ƒiƒ‹‚Ås‚¤B
+,,,,,,c:/user/aaa(*)/Documents/repos(*)/repo(*) ƒtƒIƒ‹ƒ_‚ÉˆÚ“®‚·‚éB
+,,,,,,ƒŒƒ|ƒWƒgƒŠ‚Ì‰Šú‰»–½—ß@$git init
+,,,,,,
+,,,,,,6.2 ’Ç‹L–€
+,,,,,,
+,,,,,,[user]
+,,,,,,name = acc-aa(*1)
+,,,,,,email = aaa@xxx.yyy(*3)repo-aa(*2)
+,,,,,,"[remote ""origin""]"
+,,,,,,url = git@github-aaa(*8):acc-aa(*1)/repo-aa(*2)
+,,,,,,pushurl =  git@github-aaa(*8):acc-aa(*1)/repo-aa(*2)
+,,,,,,fetch = +refs/heads/*:refs/remotes/origin/*
+,,,,,,
+,,,,,,"[remote ""upstream""]"
+,,,,,,url = https://github.com/acc-bb(*11)/repo-bb(*12).git
+,,,,,,pushurl = https://github.com/acc-bb(*11)/repo-bb(*12).git
+,,,,,,fetch = +refs/heads/*:refs/remotes/upstream/*
+,,,,,,acc-aa(*11)
+,,,,,,
+,,,,,,7.İ’èî•ñ‚ÌŠm”F
+,,,,,,vscode¨ƒtƒAƒCƒ‹¨ƒtƒHƒ‹ƒ_[‚ğŠJ‚­¨repo(*)‚ğw’è
+,,,,,,¨graph(¶‰º)¨İ’èƒ}[ƒNi•Ôji‰Eãj
+,,,,,,¨6.2 ‚Ì’Ç‹L–€‚ğŠm”F‚·‚é
+,,,,,,
+,,,,,,iŠ®—¹j
